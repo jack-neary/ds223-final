@@ -10,8 +10,9 @@ https://mimic.mit.edu/docs/iv/modules
 *potential research question*
  - Among ICU patients with ECG recordings, which ECG features are most predictive of in-hospital mortality?
 
+ - outcome:
+    - mortality (hospital expire flag)
  - predictors:
-    - mortality
     - reports from ecg table
     - demographic variables (table?)
     - ecg features from ecg table
