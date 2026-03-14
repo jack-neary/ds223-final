@@ -7,7 +7,7 @@ Hospital
 DB Schema
 https://mimic.mit.edu/docs/iv/modules 
 
-*potential research question*
+## potential research question
  - Among ICU patients with ECG recordings, which ECG features are most predictive of in-hospital mortality?
 
  - outcome:
@@ -16,3 +16,20 @@ https://mimic.mit.edu/docs/iv/modules
     - reports from ecg table
     - demographic variables (table?)
     - ecg features from ecg table
+
+### report_0
+   - Current buckets
+      - normal_sinus [x]
+      - sinus_tachy [x]
+      - sinus_brady [x]
+      - afib [x]
+      - afib_rvr [x]
+      - pvc [x]
+      - pac [x]
+      - afib_avr [x]
+      - paced [x]
+      - stemi_alert [x]
+   - To make
+      - low degree block
+      - high degree block
+      - atrial_arrhythmia
